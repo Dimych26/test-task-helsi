@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ardalis.Result.FluentValidation" Version="7.1.0" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Helsi.Test_Task.Contracts\Helsi.Test_Task.Contracts.csproj" />
+    <ProjectReference Include="..\Helsi.Test_Task.Core\Helsi.Test_Task.Core.csproj" />
+    <ProjectReference Include="..\Helsi.Test_Task.Infrastructure.Resources\Helsi.Test_Task.Infrastructure.Resources.csproj" />
+    <ProjectReference Include="..\Helsi.Test_Task.Infrastructure.Utils\Helsi.Test_Task.Infrastructure.Utils.csproj" />
+    <ProjectReference Include="..\Helsi.Test_Task.Models\Helsi.Test_Task.Models.csproj" />
+  </ItemGroup>
+
+</Project>
